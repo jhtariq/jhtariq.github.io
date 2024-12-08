@@ -1,80 +1,74 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Semantic ORB SLAM
+description: Enhancing ORB-SLAM with semantic segmentation to improve robustness in dynamic environments.
+img: assets/img/3.jpg
+importance: 4
+category: Graduate
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The **Semantic ORB-SLAM** project integrates semantic segmentation with the ORB-SLAM3 framework to enhance its robustness and accuracy in dynamic environments. By leveraging semantic labels, the system distinguishes between transient and stable elements, prioritizing permanent landmarks for localization and mapping. This innovative approach mirrors human navigation strategies and addresses the limitations of traditional ORB-SLAM implementations in dynamic scenarios.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### Motivation
+
+In dynamic environments, landmarks that move can disrupt localization accuracy. The integration of semantic understanding enables ORB-SLAM to filter out transient objects (e.g., vehicles) and focus on stable features like walls and furniture. This alignment with human-like navigation techniques improves SLAM robustness and reduces computational overhead.
+
+
+### Methodology
+
+1. **Semantic Segmentation:** 
+   - Utilized YOLO v8 and synthetic data from NVIDIA Isaac Sim for precise object segmentation.
+   - Segmented images were used to mask dynamic objects and extract features only from relevant, stable objects.
+
+2. **Feature Detection and Matching:**
+   - Applied ORB feature detection on semantically segmented frames.
+   - Performed nearest-neighbor matching with descriptors to establish reliable correspondences between frames.
+
+3. **Testing and Validation:**
+   - Validated the approach using the EuRoC dataset for real-world and synthetic environments.
+   - Assessed the system's performance under various viewing angles and object rotations.
+
+### Results
+
+- Achieved robust localization by filtering dynamic objects and focusing on key landmarks.
+- Demonstrated that semantic segmentation improves feature detection accuracy and reduces computational load.
+- Identified challenges in handling significant object rotations, with future work focusing on geometric consistency checks.
+
+### Future Work
+
+- Incorporate advanced geometric consistency methods for improved feature matching.
+- Extend the system to dynamic environments with real-world data.
+- Explore the integration of semantic SLAM in urban navigation and assistive robotics.
+
+---
+
+### Media
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/orb_slam_1.jpg" title="Segmented Image with Key Features" class="img-fluid rounded z-depth-1" %}
   </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/orb_slam_2.jpg" title="Synthetic Data from NVIDIA Isaac Sim" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
 
-{% endraw %}
+<div class="row mt-3">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/orb_slam_3.jpg" title="Feature Matching Results" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+
+---
+
+### References
+
+- Campos, C., et al., “ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual-Inertial, and Multimap SLAM,” *IEEE Transactions on Robotics*.
+- Zhang, J., et al., “VDO-SLAM: A Visual Dynamic Object-Aware SLAM System,” *arXiv preprint*.
+- Redmon, J., et al., “YOLO: Unified, Real-Time Object Detection,” *arXiv preprint*.
+
+---
+
+This project showcases the potential of combining semantic understanding with traditional SLAM frameworks to revolutionize robotic navigation in complex, dynamic environments.

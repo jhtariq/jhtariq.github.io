@@ -1,80 +1,58 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: Optimal Control Strategy for an Acrobot
+description: Utilizing Direct Collocation (DIRCOL) for dynamic trajectory planning and control in a two-link acrobot.
+img: assets/img/12.jpg
+importance: 5
+category: Graduate
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project explores the development of an Optimal Control Strategy for an acrobot designed to perform trapeze-style jumping. By employing **Direct Collocation (DIRCOL)** methods, the acrobot was programmed to swing, release, and catch successive trapeze bars with precise control. The system dynamics and constraints were carefully modeled to reflect real-world scenarios, and a quadratic cost function was optimized for energy efficiency and trajectory accuracy.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+---
+
+### Objectives
+
+- Develop a robust control strategy for an under-actuated two-link robot.
+- Enable the acrobot to perform dynamic transitions between swinging and flying phases.
+- Optimize the system using **free-time** intervals for enhanced trajectory precision.
+- Minimize energy consumption while achieving smooth motion.
+
+### Dynamics Modeling
+
+The acrobot is modeled as a two-link robot with:
+- Revolute joints connecting the links.
+- A gripper as the end effector.
+- Swinging and flying phases were analyzed separately.
+
+Key equations were derived using the **Euler-Lagrange formulation**
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/acrobot_swing.jpg" title="Swinging Phase" class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
+<div class="caption">The acrobot gathering momentum in the swinging phase.</div>
+
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/acrobot_flight.jpg" title="Flying Phase" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
+<div class="caption">The acrobot in the flying phase, heading to the next bar.</div>
 
-{% endraw %}
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/acrobot_trajectory.jpg" title="Trajectory Visualization" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption">Optimized trajectory plotted for both phases.</div>
+
+### Highlights
+
+- **Free-Time Optimization:** The system dynamically adjusted phase durations, improving efficiency.
+- **Trajectory Accuracy:** Achieved seamless transitions between trapeze bars.
+- **Energy Efficiency:** Quadratic cost functions minimized control efforts.
