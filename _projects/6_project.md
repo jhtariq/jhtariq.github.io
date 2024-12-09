@@ -8,13 +8,13 @@ category: Graduate
 related_publications: false
 ---
 
-The **State Estimation of Sensorized Knee Brace** project aims to revolutionize post-surgery movement monitoring and analysis, empowering patients to recover effectively outside clinical environments. By integrating soft robotic sensors with state-of-the-art estimation techniques, this project bridges cutting-edge technology and real-world medical applications.
+The **State Estimation of Sensorized Knee Brace** project aims to improvize upon post-surgery monitoring and analysis, empowering patients to recover effectively outside clinical environments. By integrating soft robotic sensors with state-of-the-art estimation techniques, this project bridges cutting-edge technology and real-world medical applications.
 
 ### Key Contributions
-- **Fabrication and Sensorization:** Designed and fabricated a **sensorized knee brace** equipped with capacitive soft robotic sensors for **continuous monitoring** of knee movements.
-- **Activity Classification and Warnings:** Developed a system capable of **classifying user activities** and issuing **warnings for improper movements**, ensuring proactive user assistance during rehabilitation.
-- **Advanced State Estimation:** Applied diverse filtering techniques to enhance gait analysis precision, leveraging data from capacitive sensors for real-time insights.
-- **Clinical Collaboration:** Partnered with surgeons to **bridge the research-practice gap**, ensuring practical implementation and conducting patient trials to validate the device's utility and viability.
+- **Fabrication and Sensorization** Designed and fabricated a **sensorized knee brace** equipped with capacitive soft robotic sensors for **continuous monitoring** of knee movements.
+- **Activity Classification and Warnings** Developed a system capable of **classifying user activities** and issuing **warnings for improper movements**, ensuring proactive user assistance during rehabilitation.
+- **Advanced State Estimation** Applied diverse filtering techniques to enhance gait analysis precision, leveraging data from capacitive sensors for real-time insights.
+- **Clinical Collaboration** Partnered with surgeons to **bridge the research-practice gap**, ensuring practical implementation and conducting patient trials to validate the device's utility and viability.
 
 ### Impact
 This project paves the way for smarter rehabilitation solutions by:
@@ -39,5 +39,5 @@ This project paves the way for smarter rehabilitation solutions by:
     Left: Fabricated sensorized knee brace prototype. Right: Testing phase showcasing real-time gait analysis.
 </div>
 
-This sensorized knee brace project represents a leap forward in biomechanical rehabilitation technology, offering patients a smarter, more supportive recovery process.
+This sensorized knee brace project represents a leap forward in biomechanical rehabilitation technology, offering patients a smarter and more supportive recovery process.
 

@@ -2,7 +2,7 @@
 layout: page
 title: Semantic ORB SLAM
 description: Enhancing ORB-SLAM with semantic segmentation to improve robustness in dynamic environments.
-img: assets/img/3.jpg
+img: assets/img/slam_cover.jpg
 importance: 4
 category: Graduate
 ---
@@ -48,10 +48,10 @@ In dynamic environments, landmarks that move can disrupt localization accuracy. 
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/orb_slam_1.jpg" title="Segmented Image with Key Features" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/orb_slam_2.jpg" title="Segmented Image with Key Features" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/orb_slam_2.jpg" title="Synthetic Data from NVIDIA Isaac Sim" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/orb_slam_1.jpg" title="Synthetic Data from NVIDIA Isaac Sim" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
