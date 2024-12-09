@@ -2,7 +2,7 @@
 layout: page
 title: Real-Time Cloth State Estimation (Ongoing)
 description: Estimation and Prediction of Cloth Dynamics for Robotic Manipulation using EKF
-img: assets/img/3.jpg
+img: assets/img/ekf_cover.jpg
 importance: 1
 category: Graduate
 related_publications: true
@@ -43,22 +43,39 @@ This project focuses on estimating the state of deformable cloth using an **Exte
 - **Accuracy**: Demonstrated significant improvement in tracking precision compared to standard filtering techniques.  
 - **Robustness**: The system performs reliably even with partial or noisy observations.  
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/12.jpg" title="Simulation of cloth state estimation" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3">
+        {% include figure.liquid path="assets/img/ekf_hwr.jpg" title="Comparison: RRT vs PRM" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    A visualization of cloth state prediction over time.
+    EKF Framework and the hardware setup.
 </div>
 
 ### **Video Demonstration**
 
-<video controls class="img-fluid rounded z-depth-1">
-    <source src="assets/videos/cloth_estimation.mp4" type="video/mp4">
+<!-- <video controls class="img-fluid rounded z-depth-1">
+    <source src="assets/video/output_real.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
 <div class="caption">
     Watch the EKF in action, predicting and correcting cloth state in real-time.
+</div> -->
+<!-- <video controls class="img-fluid rounded z-depth-1" preload="metadata" width="600" height="400">
+    <source src="/assets/video/output_real.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<div class="caption">
+    Watch the EKF in action, predicting and correcting cloth state in real-time.
+</div> -->
+<div class="text-center">
+    <video controls class="img-fluid rounded z-depth-1" preload="metadata" width="600" height="400">
+        <source src="/assets/video/output_real.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="caption mt-2">
+        Watch the EKF in action, predicting and correcting cloth state in real-time.
+    </div>
 </div>

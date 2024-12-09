@@ -2,7 +2,7 @@
 layout: page
 title: Autonomy Intern @ Oshkosh
 description: End-to-End implementation of Semantic Segmentation   
-img: assets/img/3.jpg
+img: assets/img/osh_cover.jpg
 importance: 2
 category: Graduate
 related_publications: false
@@ -38,5 +38,5 @@ The developed segmentation system significantly improved **object detection accu
     </div>
 </div>
 <div class="caption">
-    Demonstration of the quadruped navigating a dynamic environment using PRM.
+    This is based on open-source data, actual data not displayed.
 </div>
