@@ -36,7 +36,7 @@ As a patrol-head since young, I am passionate about **advancing autonomous syste
   <a href="mailto:jhtariq@cmu.edu">Email</a> &nbsp;/&nbsp;
   <a href="https://www.linkedin.com/in/tariq-anwaar/">LinkedIn</a> &nbsp;/&nbsp;
   <a href="https://github.com/jhtariq">GitHub</a> &nbsp;/&nbsp;
-  <a href="https://drive.google.com/file/d/1Yf8isNIlP9199rVsswqpbGNOBsGL47bq/view?usp=sharing">Resume</a>
+  <a href="https://drive.google.com/file/d/19sAjGgbKgIYpHZ61dzB8LwWSTFQhnkD6/view?usp=sharing">Resume</a>
 </p>
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
