@@ -29,7 +29,16 @@
       "url": "https://www.oshkoshcorp.com/",
       "startDate": "May'24",
       "endDate": "Aug'24",
-      "summary": "During my internship at Oshkosh Corporation, I developed a high-accuracy semantic segmentation model and enhanced object detection in autonomous vehicles. This model significantly improved navigation reliability while reducing dependency on high-definition maps, contributing to a more adaptable and independent AV stack.",
+      "summary": "During my internship at Oshkosh Corporation, I implmeneted a high-accuracy semantic segmentation model and enhanced object detection in autonomous vehicles. This model significantly improved navigation reliability while reducing dependency on high-definition maps, contributing to a more adaptable and independent AV stack.",
+      "highlights": ""
+    },
+    {
+      "name": "Gamma Technologies",
+      "position": "System Simulation Intern",
+      "url": "https://www.gtisoft.com/",
+      "startDate": "Jan'23",
+      "endDate": "Apr'23",
+      "summary": "During my internship at GT, I explored and implemented GT-Suite packages for various applications, with a prime focus on Electric Vehicle Modeling, Thermal Management of batteries and autonomy development models.",
       "highlights": ""
     }
   ],
@@ -50,7 +59,7 @@
       "institution": "Carnegie Mellon University",
       "location": "Pennsylvania, USA",
       "url": "",
-      "area": "Robotics - Perception, Controls, and State Estimation",
+      "area": "Robotics - Perception, Planning, and State Estimation",
       "studyType": "Master of Science",
       "startDate": "Aug'23",
       "endDate": "May'25",
@@ -139,12 +148,58 @@
   // ],
   "skills": [
     {
-      "name": "Robtoics",
+      "name": "Perception",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Perception - Detection, Segmentation, Sensor Fusion, SLAM",
-        "Path Planning - A*, D*, RRT, PRM, MPC, Symbolic planning"
+        "Detection, Segmentation, Sensor Fusion, LiDAR, SLAM, Depth and Pose Estimation"
+      ]
+    },
+    {
+      "name": "Planning and Controls",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "PID, LQR, MPC, DIRCOL, A*, D*, RRT, PRM, Symbolic planning and multi-agent planning"
+      ]
+    },
+    {
+      "name": "Deep Learning",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "CNN, RNN, LSTM, GRU, GAN, VAE, Transformer, Attention models"
+      ]
+    },
+    {
+      "name": "General Robotics",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Python, C++, Arduino, ROS, Gazebo, NAV2, TensorFlow, Pytorch, Git, Hugging Face, OpenMM Lab, NVIDIA Orin, Spirit, Stretch RE2"
+      ]
+    }
+
+  ],
+  "interests": [
+    {
+      "name": "Robotics",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Autonomous Vehicles",
+        "Deformaable Manipulation",
+        "Biomedical Robotics",
+        "Wearable Devices"
+      ]
+    },
+    {
+      "name": "General",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Patrol head",
+        "Soccer",
+        "Travelling",
+        "Writing"
       ]
     }
   ]
