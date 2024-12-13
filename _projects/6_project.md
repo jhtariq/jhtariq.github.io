@@ -2,7 +2,7 @@
 layout: page
 title: State Estimation of Sensorized Knee Brace
 description: Developing a sensorized knee brace to monitor and analyze post-surgery movements with advanced state estimation techniques.
-img: assets/img/12.jpg
+img: assets/img/knee.jpg
 importance: 6
 category: Graduate
 related_publications: false
