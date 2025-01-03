@@ -23,7 +23,7 @@ During my internship at **Oshkosh Corporation's Autonomy Team**, I focused on de
 - **Challenge**  
   Optimizing segmentation models to handle **dynamic urban environments** (e.g., moving vehicles, changing lighting conditions).  
 - **Achievement**  
-  Achieved **>90% mIoU (mean Intersection over Union)** on the custom dataset with a lightweight architecture, meeting real-time performance requirements.
+  Achieved **>60% mIoU (mean Intersection over Union)** on the custom dataset with a lightweight architecture, meeting real-time performance requirements.
 
 ### **Impact**
 The developed segmentation system significantly improved **object detection accuracy** and **path planning reliability** for autonomous vehicles. This work contributed to Oshkosh's ongoing efforts in advancing autonomous vehicle technology for various applications.
@@ -32,7 +32,19 @@ The developed segmentation system significantly improved **object detection accu
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3">
         <video controls width="100%">
-            <source src="assets/videos/quadruped_navigation.mp4" type="video/mp4">
+            <source src="assets/videos/output_videos_l_new.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+<div class="caption">
+    Segmented Output.
+</div>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3">
+        <video controls width="100%">
+            <source src="assets/videos/output_videos_im.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>

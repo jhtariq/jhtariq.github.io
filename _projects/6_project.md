@@ -29,14 +29,14 @@ This project paves the way for smarter rehabilitation solutions by:
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/sensorized_knee_brace_design.jpg" title="Sensorized Knee Brace Design" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/cap_sensor.jpg" title="Capacitive Sensor Setup" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/knee_brace_testing.jpg" title="Testing Phase with Soft Robotic Sensors" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/cap_prediction.jpg" title="Prediction of extensions and flexions" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Left: Fabricated sensorized knee brace prototype. Right: Testing phase showcasing real-time gait analysis.
+    Left: Capacitive Sensor Setup. Right: Prediction of extensions and flexions.
 </div>
 
 This sensorized knee brace project represents a leap forward in biomechanical rehabilitation technology, offering patients a smarter and more supportive recovery process.
