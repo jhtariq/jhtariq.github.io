@@ -29,26 +29,23 @@ During my internship at **Oshkosh Corporation's Autonomy Team**, I focused on de
 The developed segmentation system significantly improved **object detection accuracy** and **path planning reliability** for autonomous vehicles. This work contributed to Oshkosh's ongoing efforts in advancing autonomous vehicle technology for various applications.
 
 ### **Demo Video**
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3">
-        <video controls width="100%">
-            <source src="assets/videos/output_videos_l_new.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+<div class="text-center">
+    <video controls class="img-fluid rounded z-depth-1" preload="metadata" width="600" height="400">
+        <source src="/assets/video/output_videos_im1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="caption mt-2">
+        Open source data shown (A2D2), not original data.
     </div>
-</div>
-<div class="caption">
-    Segmented Output.
 </div>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3">
-        <video controls width="100%">
-            <source src="assets/videos/output_videos_im.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+<div class="text-center">
+    <video controls class="img-fluid rounded z-depth-1" preload="metadata" width="600" height="400">
+        <source src="/assets/video/output_videos_l_new1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="caption mt-2">
+        Segmented Output.
     </div>
 </div>
-<div class="caption">
-    This is based on open-source data, actual data not displayed.
-</div>
+`
