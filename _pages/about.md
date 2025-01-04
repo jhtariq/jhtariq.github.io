@@ -36,5 +36,5 @@ As a patrol-head since young, I am passionate about **advancing autonomous syste
   <a href="mailto:jhtariq@cmu.edu">Email</a> &nbsp;/&nbsp;
   <a href="https://www.linkedin.com/in/tariq-anwaar/">LinkedIn</a> &nbsp;/&nbsp;
   <a href="https://github.com/jhtariq">GitHub</a> &nbsp;/&nbsp;
-  <a href="https://drive.google.com/file/d/19sAjGgbKgIYpHZ61dzB8LwWSTFQhnkD6/view?usp=sharing">Resume</a>
+  <a href="https://drive.google.com/file/d/15-UWus9m2ktYv_u-2B_0vLpUyuQj6l0Q/view?usp=sharing">Resume</a>
 </p>
